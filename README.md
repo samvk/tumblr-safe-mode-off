@@ -1,5 +1,5 @@
 # Tumblr-Safe-Mode-Bypass
-A browser plugin to display all posts hidden behind the 'adult content' error, and display Tumblr blogs blocked by the 'sensetive media' error.
+A browser plugin to display all posts hidden behind the 'adult content' error, and display Tumblr blogs blocked by the 'sensitive media' error.
 
 # Code
 Blog unblocking is done by redirecting blocked blocks to instead display in the Tumblr side bar (which doesn't block blogs). The redirection code is from https://github.com/bendavis78/chrome-extension-redirector.
