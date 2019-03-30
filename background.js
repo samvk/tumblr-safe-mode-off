@@ -2,7 +2,7 @@
 
 chrome.webRequest.onBeforeRequest.addListener(
   function(details) {
-    var redirects, pattern, from, to, redirecUrl;
+    var redirects, pattern, from, to, redirectUrl;
     redirects = [
 		[	
 			"^https://www.tumblr.com/safe-mode\\?url=https?%3A%2F%2F(.*).tumblr.com.*",
