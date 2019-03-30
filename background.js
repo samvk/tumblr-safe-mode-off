@@ -6,7 +6,7 @@ chrome.webRequest.onBeforeRequest.addListener(
     redirects = [
 		[	
 			"^https://www.tumblr.com/safe-mode\\?url=https?%3A%2F%2F(.*).tumblr.com.*",
-			"https://www.tumblr.com/dashboard/blog/$1"
+			"https://www.tumblr.com/dashboard/blog/$1?peepr-fullscreen"
 		]
 	];
     for (var i=0; i<redirects.length; i++) {
