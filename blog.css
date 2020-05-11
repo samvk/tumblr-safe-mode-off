@@ -1,19 +1,7 @@
-:root {
-    --scrollbar-width: 17px;
-}
-
-.peepr-fullscreen .peepr-drawer-container {
+.blog-fullscreen._3uGiA {
     width: 100% !important;
 }
 
-.peepr-fullscreen .peepr-drawer-container .navigation {
-    width: calc(100% - var(--scrollbar-width)) !important;
-}
-
-.peepr-fullscreen .indash_header_wrapper .header_image_wrapper {
-    height: 352px !important;
-}
-
-.peepr-fullscreen .indash_header_wrapper .navigation .navigation_bg {
-    height: 100% !important;
+.blog-fullscreen ._1imak {
+    max-width: none !important;
 }
