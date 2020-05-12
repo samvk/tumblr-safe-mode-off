@@ -11,5 +11,8 @@
     "matches": ["https://www.tumblr.com/dashboard/blog/*"],
     "css": [ "blog.css"],
     "js": ["blog.js"]
+  }, {
+    "matches": ["https://www.tumblr.com/safe-mode*"],
+    "js": ["safe-mode.js"]
   }]
 }
